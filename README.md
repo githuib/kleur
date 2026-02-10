@@ -114,23 +114,23 @@ The dynamic range specifies to what degree the hue of the input colors will be u
   *The shades will interpolate between the darkest & brightest shades of the input colors.*
 
 ```commandline
-$ kleur shades -l bad-guy -c badddd -k aa601f -d 66
+$ kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 66
 ```
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double.png "kleur shades -l bad-guy -c badddd -k aa601f -d 66")
+![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double.png "kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 66")
 
 With input markers, varying in dynamic range:
 
 ```commandline
-$ kleur shades -l bad-guy -c badddd -k aa601f -d 0 -i
+$ kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 0 -i
 ```
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_0.png "kleur shades -l bad-guy -c badddd -k aa601f -d 0 -i")
+![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_0.png "kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 0 -i")
 
 ```commandline
-$ kleur shades -l bad-guy -c badddd -k aa601f -d 50 -i
+$ kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 50 -i
 ```
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_50.png "kleur shades -l bad-guy -c badddd -k aa601f -d 50 -i")
+![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_50.png "kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 50 -i")
 
 ```commandline
-$ kleur shades -l bad-guy -c badddd -k aa601f -d 100 -i
+$ kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 100 -i
 ```
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_100.png "kleur shades -l bad-guy -c badddd -k aa601f -d 100 -i")
+![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_100.png "kleur shades -l tables-fables -c 7a6135 -k fab1e5 -d 100 -i")
