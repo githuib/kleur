@@ -1,7 +1,7 @@
-# hsluv_to_hex
-#    ^ hsluv_to_rgb -> rgb_to_hex
+# h*luv_to_hex
+#    ^ h*luv_to_rgb -> rgb_to_hex
 #          ^ h*luv_to_lch -> lch_to_rgb
-#                                ^ lch_to_luv -> luv_to_xyz -> xyz_to_rgb)
+#                                ^ lch_to_luv -> luv_to_xyz -> xyz_to_rgb
 def hsluv_to_hex(_hx_tuple: tuple[float, float, float]) -> str: ...
 def hpluv_to_hex(_hx_tuple: tuple[float, float, float]) -> str: ...
 def hsluv_to_rgb(
@@ -25,7 +25,7 @@ def rgb_to_hex(_hx_tuple: tuple[float, float, float]) -> str: ...
 # hex_to_h*luv
 #     ^ hex_to_rgb -> rgb_to_h*luv
 #                         ^ rgb_to_lch -> lch_to_h*luv
-#                               ^ rgb_to_xyz -> xyz_to_luv -> luv_to_lch)
+#                               ^ rgb_to_xyz -> xyz_to_luv -> luv_to_lch
 def hex_to_hsluv(s: str) -> tuple[float, float, float]: ...
 def hex_to_hpluv(s: str) -> tuple[float, float, float]: ...
 def hex_to_rgb(_hex: str) -> tuple[float, float, float]: ...

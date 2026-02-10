@@ -160,9 +160,10 @@ class ColorHighlighter:
             Highlighter(k)(f" {s} ", enabled=p in highlighted)
             for (s, k, p) in zip(c.prop_strings(), decomposed, CP, strict=True)
         )
-        n, start, end = b = "HSLuv", "[", "]"
+        b = "HSLuv", "[", "]"
         if enable_bounds_highlights:
             # When some of the values were highlighted, highlight the outer brackets
             # as well to make it visually stand out more.
-            n, start, end = [Highlighter(c)(s, enabled=bool(highlighted)) for s in b]
+            b = [Highlighter(c)(s, enabled=bool(highlighted)) for s in b]
+        n, start, end = b
         return f"{n} {start} {values} {end}"

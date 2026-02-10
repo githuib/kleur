@@ -16,16 +16,15 @@ class Colors:
 
     Custom color palettes can be specified by creating a very basic class
     that solely consists of a different set of hues (in degrees), for example:
-    >>> from math import pi
     >>> class MyColors:
     ...     tomato = c(15)
     ...     turquoise = c(175)
-    ...     very_random = tomato.blend(turquoise, 1 / pi)
-    >>> for name in ["tomato", "turquoise", "very_random"]:
+    ...     turquato = tomato.blend(turquoise, 0.44)
+    >>> for name in ["tomato", "turquoise", "turquato"]:
     ...     print(f"{getattr(MyColors, name)} <-- {name}")
     HSLuv( 15.00°, 100.00%,  50.00%) <-- tomato
     HSLuv(175.00°, 100.00%,  50.00%) <-- turquoise
-    HSLuv( 65.93°, 100.00%,  50.00%) <-- very_random
+    HSLuv( 85.40°, 100.00%,  50.00%) <-- turquato
     """
 
     red = c(12)
