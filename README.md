@@ -7,8 +7,8 @@
 I'd like to give special credits to [Alexei Boronine](https://github.com/boronine) and everyone else who contributed to the [HSLuv](https://www.hsluv.org/) project.
 This work provided the fundaments to build this package on (and is the only dependency used in it).
 
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/palette.png "kleur palette")
-![alt text](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades.png "kleur shades")
+[![Palette Command](https://github.com/githuib/kleur/raw/master/assets/screenshots/palette.png "kleur palette")](https://github.com/githuib/kleur/raw/master/assets/screenshots/palette/default.png)
+[![Shades Command](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades.png "kleur shades")](https://github.com/githuib/kleur/raw/master/assets/screenshots/shades/double_50.png)
 
 ## Installation
 
